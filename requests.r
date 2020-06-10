@@ -1,6 +1,7 @@
 install.packages('reticulate')
 install.packages('dplyr')
 install.packages('jsonlite')
+install.packages('yaml')
 
 library('reticulate')
 library('dplyr')
