@@ -1,1 +1,1 @@
-# run-your-favorite-python-package-in-r
+# Run your favorite Python package in R
