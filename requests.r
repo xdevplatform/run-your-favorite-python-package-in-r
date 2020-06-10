@@ -30,7 +30,6 @@ bearer_token <- cred$search_tweets_api$bearer_token
 headers <- sprintf('{"Authorization": "Bearer %s"}', bearer_token)
 header_dict <- j$loads(headers)
 
-
 response <- r$request("GET", url, headers=header_dict)
 print(response$text)
 
