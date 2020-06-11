@@ -12,7 +12,6 @@ path_to_python <- "/usr/bin/python3.7"
 use_python(path_to_python)
 
 virtualenv_install("tweetenv", "requests", ignore_installed = TRUE)
-virtualenv_install("tweetenv", "json", ignore_installed = TRUE)
 use_virtualenv("tweetenv", required = TRUE)
 
 j <- import("json")
