@@ -13,12 +13,10 @@ use_python(path_to_python)
 
 virtualenv_install("tweetenv", "requests", ignore_installed = TRUE)
 virtualenv_install("tweetenv", "json", ignore_installed = TRUE)
-virtualenv_install("tweetenv", "pandas", ignore_installed = TRUE)
 use_virtualenv("tweetenv", required = TRUE)
 
 j <- import("json")
 r <- import("requests")
-pd <- import("pandas")
 
 input <- readline('What handle do you want to get Tweets from? ')
 
