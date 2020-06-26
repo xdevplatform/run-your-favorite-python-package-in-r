@@ -1,6 +1,6 @@
 # Run your favorite Python package in R
 
-A code sample which shows you how to call the [Labs Recent Search endpoint](https://developer.twitter.com/en/docs/labs/recent-search/overview) using the Python package [Requests](https://requests.readthedocs.io/en/master/) in side of R. There is a [blog post](https://blog.twitter.com/developer/en_us/topics/tips/2020/running-the-python-package-for-search-tweets-in-r.html) on a related code sample available as well.
+A code sample which shows you how to call the [Labs Recent Search endpoint](https://developer.twitter.com/en/docs/labs/recent-search/overview) using the Python package [Requests](https://requests.readthedocs.io/en/master/) inside of R. There is a [blog post](https://blog.twitter.com/developer/en_us/topics/tips/2020/running-the-python-package-for-search-tweets-in-r.html) on a related code sample available as well.
 
 For this sample to run you will need to set up a configuration file with your secrets, a sample of this can be found under `secret.yaml`. Be sure to add your `secret.yaml` to your `.gitignore` and check out [our guide on securing keys and tokens](https://developer.twitter.com/en/docs/basics/authentication/guides/securing-keys-and-tokens).
 
